@@ -1,25 +1,31 @@
 {
   "files": {
     "main.css": "/cpm_portfolio/static/css/main.a60082d0.css",
-    "main.js": "/cpm_portfolio/static/js/main.1c040ddc.js",
+    "main.js": "/cpm_portfolio/static/js/main.99a0e584.js",
     "static/js/453.f998e612.chunk.js": "/cpm_portfolio/static/js/453.f998e612.chunk.js",
     "static/media/dark_vid.mp4": "/cpm_portfolio/static/media/dark_vid.f2003d08ab5adb7544aa.mp4",
     "static/media/light_vid.mp4": "/cpm_portfolio/static/media/light_vid.9447373be467d4d63717.mp4",
-    "static/media/mock09.png": "/cpm_portfolio/static/media/mock09.e18677ccfc932e52d754.png",
+    "static/media/intel.png": "/cpm_portfolio/static/media/intel.e19a95272f22a204e613.png",
+    "static/media/fake news.pdf": "/cpm_portfolio/static/media/fake news.caa8bbe9c3266742380f.pdf",
     "static/media/donacook.png": "/cpm_portfolio/static/media/donacook.b33a4c0d6c408b844614.png",
+    "static/media/intel.pdf": "/cpm_portfolio/static/media/intel.c222466f23564fce9e89.pdf",
     "static/media/profile.png": "/cpm_portfolio/static/media/profile.bb0b406f674689e1f3ae.png",
+    "static/media/epa green.png": "/cpm_portfolio/static/media/epa green.b442338929404f68d986.png",
+    "static/media/epa green.pdf": "/cpm_portfolio/static/media/epa green.e74bbf15a1da477002ed.pdf",
+    "static/media/emo.png": "/cpm_portfolio/static/media/emo.1214aedea9bb6f5d9c29.png",
+    "static/media/emo.pdf": "/cpm_portfolio/static/media/emo.78935bbf53cc9e6c5e01.pdf",
+    "static/media/fake news.png": "/cpm_portfolio/static/media/fake news.51faddfb9c92aba640c9.png",
     "static/media/thumbnail data.png": "/cpm_portfolio/static/media/thumbnail data.550273e94cb8ff33c16f.png",
-    "static/media/descriptive reports.pdf": "/cpm_portfolio/static/media/descriptive reports.15decfe1f6a6d30c0de7.pdf",
     "static/media/icon_ai.png": "/cpm_portfolio/static/media/icon_ai.022288da9b6935235fdb.png",
     "static/media/icon_dev.png": "/cpm_portfolio/static/media/icon_dev.0fec7016316a7cca5d1e.png",
     "static/media/icon_ba.png": "/cpm_portfolio/static/media/icon_ba.0e09bf575ceaa19c450d.png",
     "index.html": "/cpm_portfolio/index.html",
     "main.a60082d0.css.map": "/cpm_portfolio/static/css/main.a60082d0.css.map",
-    "main.1c040ddc.js.map": "/cpm_portfolio/static/js/main.1c040ddc.js.map",
+    "main.99a0e584.js.map": "/cpm_portfolio/static/js/main.99a0e584.js.map",
     "453.f998e612.chunk.js.map": "/cpm_portfolio/static/js/453.f998e612.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a60082d0.css",
-    "static/js/main.1c040ddc.js"
+    "static/js/main.99a0e584.js"
   ]
 }
