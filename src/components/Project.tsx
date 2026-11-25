@@ -18,11 +18,6 @@ function Project() {
         <h1>Projects & Publications</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/compute-code/SoftwareEngineeringProject.git" target="_blank" rel="noreferrer"><img src={donacook} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/compute-code/SoftwareEngineeringProject.git" target="_blank" rel="noreferrer"><h2>DonaCook</h2></a>
-                <p>Collaborated with a team to develop DonaCook, a web application that facilitates food donations and provides affordable cooking recipes to reduce food waste, using Laravel and Bootstrap.</p>
-            </div>
-            <div className="project">
                 <a href="https://colab.research.google.com/drive/1J8IIE8joaGisiC7UMoPskmVPFeW9mwgA?usp=sharing" target="_blank" rel="noreferrer"><img src={thumbnail_data} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://colab.research.google.com/drive/1J8IIE8joaGisiC7UMoPskmVPFeW9mwgA?usp=sharing" target="_blank" rel="noreferrer"><h2>Descriptive Statistics of House Price and Development</h2></a>
                 <p>Conducted exploratory data analysis and statistical reporting on housing price datasets using Python, Pandas, NumPy, Matplotlib, and Seaborn to identify factors influencing property values through data visualization and descriptive analytics.</p>
@@ -31,11 +26,6 @@ function Project() {
                 <a href={dataPdf1} download="fake news.pdf"><img src={fake_news} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href={dataPdf1} download="fake news.pdf"><h2>Fake News Detection</h2></a>
                 <p>Developed a fake news detection system using BERT, TensorFlow, and Hugging Face Transformers, achieving 94.8% accuracy in model evaluation.</p>
-            </div>
-            <div className="project">
-                <a href={dataPdf2} download="intel.pdf"><img src={intel} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href={dataPdf2} download="intel.pdf"><h2>Movement Detection For Security System Project</h2></a>
-                <p>Collaborated with a team to develop an AI motion detection security system using Python and OpenCV, implementing real-time video processing to detect object movement in surveillance areas.</p>
             </div>
             <div className="project">
                 <a href={dataPdf3} download="epa green.pdf"><img src={epa_green} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -47,7 +37,16 @@ function Project() {
                 <a href={dataPdf4} download="emo.pdf"><h2>Emotion Classification On Indonesian Song Lyrics Using Fine-Tuned INDOBERT-BiLSTM</h2></a>
                 <p>Developed an NLP research project comparing Fine-tuned IndoBERT and hybrid IndoBERT-BiLSTM models for emotion classification on Indonesian song lyrics, applying exploratory data analysis, text preprocessing, SMOTE, and model evaluation using Accuracy, Precision, Recall, and F1-score.</p>
             </div>
-            
+            <div className="project">
+                <a href="https://github.com/compute-code/SoftwareEngineeringProject.git" target="_blank" rel="noreferrer"><img src={donacook} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/compute-code/SoftwareEngineeringProject.git" target="_blank" rel="noreferrer"><h2>DonaCook</h2></a>
+                <p>Collaborated with a team to develop DonaCook, a web application that facilitates food donations and provides affordable cooking recipes to reduce food waste, using Laravel and Bootstrap.</p>
+            </div>
+            <div className="project">
+                <a href={dataPdf2} download="intel.pdf"><img src={intel} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href={dataPdf2} download="intel.pdf"><h2>Movement Detection For Security System Project</h2></a>
+                <p>Collaborated with a team to develop an AI motion detection security system using Python and OpenCV, implementing real-time video processing to detect object movement in surveillance areas.</p>
+            </div>
         </div>
     </div>
     );
