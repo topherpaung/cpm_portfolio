@@ -8,12 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
   padding: 1rem 0 2rem;
+  color: #fff;
 
   a {
     display: inline-flex;
-    color: inherit;
+    color: #fff;
     transition: color 160ms ease, transform 160ms ease;
 
     &:hover {
@@ -36,6 +37,6 @@
   }
 
   svg {
-    font-size: 2.75rem;
+    font-size: 3.5rem;
   }
 }
