@@ -9,63 +9,55 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
-import '../assets/styles/Project.scss';
+import donacook from '../assets/images/donacook.png';
+import thumbnail_data from '../assets/images/thumbnail data.png';
+import fake_news from '../assets/images/fake news.png';
+import intel from '../assets/images/intel.png';
+import epa_green from '../assets/images/epa green.png';
+import emo from '../assets/images/emo.png';
+import dataPdf from '../assets/files/descriptive reports.pdf';import '../assets/styles/Project.scss';
+import dataPdf1 from '../assets/files/fake news.pdf';import '../assets/styles/Project.scss';
+import dataPdf2 from '../assets/files/intel.pdf';import '../assets/styles/Project.scss';
+import dataPdf3 from '../assets/files/epa green.pdf';import '../assets/styles/Project.scss';
+import dataPdf4 from '../assets/files/emo.pdf';import '../assets/styles/Project.scss';
+
 
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Projects & Publications</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/compute-code/SoftwareEngineeringProject.git" target="_blank" rel="noreferrer"><img src={donacook} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/compute-code/SoftwareEngineeringProject.git" target="_blank" rel="noreferrer"><h2>DonaCook</h2></a>
+                <p>Collaborated with a team to develop DonaCook, a web application that facilitates food donations and provides affordable cooking recipes to reduce food waste, using Laravel and Bootstrap.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://colab.research.google.com/drive/1J8IIE8joaGisiC7UMoPskmVPFeW9mwgA?usp=sharing" target="_blank" rel="noreferrer"><img src={thumbnail_data} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://colab.research.google.com/drive/1J8IIE8joaGisiC7UMoPskmVPFeW9mwgA?usp=sharing" target="_blank" rel="noreferrer"><h2>Descriptive Statistics of House Price and Development</h2></a>
+                <p>Conducted exploratory data analysis and statistical reporting on housing price datasets using Python, Pandas, NumPy, Matplotlib, and Seaborn to identify factors influencing property values through data visualization and descriptive analytics.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href={dataPdf1} download="fake news.pdf"><img src={fake_news} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href={dataPdf1} download="fake news.pdf"><h2>Fake News Detection</h2></a>
+                <p>Developed a fake news detection system using BERT, TensorFlow, and Hugging Face Transformers, achieving 94.8% accuracy in model evaluation.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href={dataPdf2} download="intel.pdf"><img src={intel} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href={dataPdf2} download="intel.pdf"><h2>Movement Detection For Security System Project</h2></a>
+                <p>Collaborated with a team to develop an AI motion detection security system using Python and OpenCV, implementing real-time video processing to detect object movement in surveillance areas.</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a href={dataPdf3} download="epa green.pdf"><img src={epa_green} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href={dataPdf3} download="epa green.pdf"><h2>Machine Learning Approaches to Analyzing Determinants of Fuel Efficiency in Vehicles: A Comprehensive Study Using EPA Green Vehicles Data</h2></a>
+                <p>Co-authored a machine learning research paper comparing Linear Regression, Decision Tree, and Random Forest models to predict vehicle fuel efficiency using the EPA Green Vehicles dataset, evaluating model performance with MAE, MSE, RMSE, and R² metrics. </p>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a href={dataPdf4} download="emo.pdf"><img src={emo} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href={dataPdf4} download="emo.pdf"><h2>Emotion Classification On Indonesian Song Lyrics Using Fine-Tuned INDOBERT-BiLSTM</h2></a>
+                <p>Developed an NLP research project comparing Fine-tuned IndoBERT and hybrid IndoBERT-BiLSTM models for emotion classification on Indonesian song lyrics, applying exploratory data analysis, text preprocessing, SMOTE, and model evaluation using Accuracy, Precision, Recall, and F1-score.</p>
             </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+            
         </div>
     </div>
     );

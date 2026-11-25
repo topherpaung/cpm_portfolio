@@ -33,6 +33,17 @@ p, a, h1, h2, h3, h4, h5, label, button {
   font-family: "Lato", sans-serif;
 }
 
+.light-mode-video,
+.dark-mode-video {
+  display: none;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
 .navigation-bar {
   justify-content: space-between;
   background-color: #0d1116;
@@ -113,8 +124,23 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .about-section {
-    background-image: url("./assets/images/bg-light.png");
+    background: transparent;
   }
+
+  .light-mode-video {
+    display: block;
+  }
+}
+
+.main-container:not(.light-mode) .about-section {
+  background: transparent;
+}
+
+.main-container:not(.light-mode) .dark-mode-video {
+  display: block;
+}
+
+.light-mode {
 
   .skills-container svg {
     color: #0d1116;

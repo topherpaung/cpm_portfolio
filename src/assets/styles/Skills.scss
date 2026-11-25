@@ -3,21 +3,52 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-
-    svg {
-        color: white;
-    }
 }
   
 .skills-container .skills-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 30px;
 }
   
 .skills-container .skills-grid .skill {
-    align-items: center;
+    align-items: flex-start;
     text-align: left;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.skills-container .skills-grid .skill.card-red {
+    border-color: #ff4d4f;
+}
+
+.skills-container .skills-grid .skill.card-yellow {
+    border-color: #facc15;
+}
+
+.skills-container .skills-grid .skill.card-blue {
+    border-color: #3b82f6;
+}
+
+.skills-container .skills-grid .skill.card-green {
+    border-color: #22c55e;
+}
+
+.skills-container .skill-icon {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    margin-bottom: 12px;
+    filter: none;
+}
+
+.dark-mode .skills-container .skill-icon {
+    filter: brightness(0) invert(1);
 }
   
 .chip {
@@ -38,11 +69,13 @@
 
 .flex-chips {
     line-height: 2;
-    margin: 0.5;
+    margin-top: 12px;
 
     .chip-title {
         color: white;
         padding-right: 10px;
+        display: block;
+        margin-bottom: 8px;
     }
 }
 
@@ -69,7 +102,8 @@
         }
     
         .skills-container .skills-grid {
-            display: initial;
+            display: grid;
+            grid-template-columns: 1fr;
         }
         
         .skills-container .skills-grid .skill {

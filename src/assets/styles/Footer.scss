@@ -3,6 +3,10 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
 
+    a[href*="linkedin"]:hover {
+        color: #0a66c2;
+    }
+
     svg {
         width: 1.1em !important;
         height: 1.1em !important;
