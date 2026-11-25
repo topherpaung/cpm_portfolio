@@ -1,25 +1,15 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
 import donacook from '../assets/images/donacook.png';
 import thumbnail_data from '../assets/images/thumbnail data.png';
 import fake_news from '../assets/images/fake news.png';
 import intel from '../assets/images/intel.png';
 import epa_green from '../assets/images/epa green.png';
 import emo from '../assets/images/emo.png';
-import dataPdf from '../assets/files/descriptive reports.pdf';import '../assets/styles/Project.scss';
-import dataPdf1 from '../assets/files/fake news.pdf';import '../assets/styles/Project.scss';
-import dataPdf2 from '../assets/files/intel.pdf';import '../assets/styles/Project.scss';
-import dataPdf3 from '../assets/files/epa green.pdf';import '../assets/styles/Project.scss';
-import dataPdf4 from '../assets/files/emo.pdf';import '../assets/styles/Project.scss';
+import dataPdf1 from '../assets/files/fake news.pdf';
+import dataPdf2 from '../assets/files/intel.pdf';
+import dataPdf3 from '../assets/files/epa green.pdf';
+import dataPdf4 from '../assets/files/emo.pdf';
+import '../assets/styles/Project.scss';
 
 
 function Project() {
