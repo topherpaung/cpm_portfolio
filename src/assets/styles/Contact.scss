@@ -15,10 +15,10 @@
   a {
     display: inline-flex;
     color: #fff;
-    transition: color 160ms ease, transform 160ms ease;
+    transition: color 160ms ease;
 
-    &:hover {
-      transform: translateY(-3px);
+    &[aria-label="GitHub"]:hover {
+      color: #a371f7;
     }
 
     &:focus-visible {

@@ -45,6 +45,14 @@
             color: #0a66c2;
         }
 
+        a[href*="github"]:hover {
+            color: #a371f7;
+        }
+
+        a[href*="instagram"]:hover {
+            color: #e1306c;
+        }
+
         svg {
             font-size: 1.8em;
         }
@@ -55,6 +63,14 @@
 
         a[href*="linkedin"]:hover {
             color: #0a66c2;
+        }
+
+        a[href*="github"]:hover {
+            color: #a371f7;
+        }
+
+        a[href*="instagram"]:hover {
+            color: #e1306c;
         }
     }
 

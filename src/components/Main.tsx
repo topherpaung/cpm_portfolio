@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import lightVideo from '../assets/videos/light_vid.mp4';
 import darkVideo from '../assets/videos/dark_vid.mp4';
 import '../assets/styles/Main.scss';
@@ -23,6 +24,7 @@ function Main() {
           <div className="social_icons">
             <a href="https://github.com/topherpaung" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/christopher-marpaung-1451682b3/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://www.instagram.com/chrstphrmrpng/" target="_blank" rel="noreferrer"><InstagramIcon/></a>
           </div>
           <h1>Christopher Parulian Marpaung</h1>
           <h2>Curious about Data Science and Data Analytics</h2>
@@ -31,6 +33,7 @@ function Main() {
           <div className="mobile_social_icons">
             <a href="https://github.com/topherpaung" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/christopher-marpaung-1451682b3/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://www.instagram.com/chrstphrmrpng/" target="_blank" rel="noreferrer"><InstagramIcon/></a>
           </div>
         </div>
       </div>
