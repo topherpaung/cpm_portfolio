@@ -27,7 +27,7 @@ function Main() {
             <a href="https://www.instagram.com/chrstphrmrpng/" target="_blank" rel="noreferrer"><InstagramIcon/></a>
           </div>
           <h1>Christopher Parulian Marpaung</h1>
-          <h2>Curious about Data Science and Data Analytics</h2>
+          <h2>IT Business Analyst | Data Analytics | Data Science</h2>
           <p>As final-year Computer Science and Mathematics double-degree student at BINUS University, I have built a foundation in algorithms, statistics, and machine learning. I enjoy exploring data, applying analytical methods, and communicating findings through clear visualizations. My interests include data cleaning, exploratory analysis, and predictive modeling.</p>
 
           <div className="mobile_social_icons">
