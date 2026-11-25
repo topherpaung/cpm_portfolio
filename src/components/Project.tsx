@@ -22,7 +22,7 @@ function Project() {
             <div className="project">
                 <a href={pertussisPaper} download="Evaluation of MobileNetV3Small for Pertussis Audio Classification.pdf"><img src={pertussisThumbnail} className="zoom" alt="First page of the MobileNetV3Small pertussis audio classification paper" width="100%"/></a>
                 <a href={pertussisPaper} download="Evaluation of MobileNetV3Small for Pertussis Audio Classification.pdf"><h2>Evaluation of MobileNetV3Small for Pertussis Audio Classification: A Pre-Emphasis Ablation Study</h2></a>
-                <p>Evaluated MobileNetV3Small on Log-Mel spectrograms for pertussis cough classification, comparing baseline preprocessing with pre-emphasis (α = 0.97). The pre-emphasis setup achieved 92.31% accuracy across 13 test recordings; the small test set limits generalizability.</p>
+                <p>Evaluated MobileNetV3Small for pertussis cough classification using Log-Mel spectrograms and Pre-Emphasis Filtering. Conducted an ablation study across multiple filtering coefficients on 65 audio recordings, achieving up to 92.31% accuracy compared to 90.77% without pre-emphasis. The research explores lightweight AI-based approaches for preliminary pertussis screening.</p>
             </div>
             <div className="project">
                 <a href="https://colab.research.google.com/drive/1J8IIE8joaGisiC7UMoPskmVPFeW9mwgA?usp=sharing" target="_blank" rel="noreferrer"><img src={thumbnail_data} className="zoom" alt="thumbnail" width="100%"/></a>
