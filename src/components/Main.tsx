@@ -25,8 +25,8 @@ function Main() {
             <a href="https://www.linkedin.com/in/christopher-marpaung-1451682b3/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Christopher Parulian Marpaung</h1>
-          <h2>IT Business Analysis | Data Analytics | Software Engineering</h2>
-          <p>I enjoy transforming business problems into technical solutions through data analysis, process modeling, and software development. My interests include Business Analysis, Artificial Intelligence, and Data Analytics.</p>
+          <h2>Curious about Data Science and Data Analytics</h2>
+          <p>I enjoy exploring data, applying statistical and machine learning methods, and communicating findings through clear visualizations. My interests include data cleaning, exploratory analysis, predictive modeling, and turning data into useful insights.</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/topherpaung" target="_blank" rel="noreferrer"><GitHubIcon/></a>

@@ -8,28 +8,28 @@ import '../assets/styles/Skills.scss';
 
 const skillCards = [
     {
-        title: 'IT Business Analysis & Project Management',
-        description: 'I bridge business needs and technology by analyzing requirements, managing project deliverables, documenting business processes, coordinating stakeholders, and ensuring successful software implementation throughout the Software Development Life Cycle (SDLC).',
-        image: iconBa,
-        tags: ['Requirement Gathering', 'Stakeholder Management', 'Agile / Scrum', 'SDLC', 'Business Process Analysis', 'Risk & Cost Analysis', 'SIT / UAT', 'Documentation (BRD, FSD)', 'UI/UX Design']
-    },
-    {
-        title: 'Data Analytics & Business Intelligence Analysis',
-        description: 'I transform raw data into actionable business insights through statistical analysis, data visualization, forecasting, and dashboard development to support data-driven decision making.',
+        title: 'Data Analysis & Statistics',
+        description: 'I explore and prepare datasets, use statistical methods to identify patterns, and translate findings into clear, useful insights.',
         image: iconDa,
-        tags: ['Python', 'SQL', 'R', 'Excel', 'Pandas', 'NumPy', 'Tableau', 'Apache Spark', 'Statistics', 'Data Visualization', 'Forecasting']
+        tags: ['Python', 'SQL', 'Excel', 'Pandas', 'NumPy', 'Data Cleaning', 'Exploratory Data Analysis', 'Descriptive Statistics', 'Hypothesis Testing']
     },
     {
-        title: 'Software Development & Engineering',
-        description: 'I develop modern web applications with responsive interfaces, scalable backend systems, and database integration.',
-        image: iconDev,
-        tags: ['Laravel', 'React', 'Next.js', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'SCSS', 'Node.js', 'MySQL', 'PostgreSQL', 'GitHub', 'Docker', 'AWS']
-    },
-    {
-        title: 'Artificial Intelligence & Machine Learning',
-        description: 'I build intelligent applications by applying machine learning and deep learning techniques for computer vision, audio classification, and predictive analytics to solve real-world problems.',
+        title: 'Data Science & Machine Learning',
+        description: 'I am interested in applying machine learning to real datasets, building predictive models, and evaluating their performance.',
         image: iconAi,
-        tags: ['Python', 'TensorFlow', 'Scikit-learn', 'CNN', 'LSTM', 'Computer Vision', 'OpenCV', 'Librosa', 'MFCC', 'Jupyter Notebook', 'Google Colab', 'Machine Learning', 'Deep Learning']
+        tags: ['Scikit-learn', 'TensorFlow', 'Regression', 'Classification', 'Decision Trees', 'Random Forest', 'Model Evaluation', 'NLP', 'Computer Vision']
+    },
+    {
+        title: 'Data Visualization & Communication',
+        description: 'I use visualizations to make patterns easier to understand and communicate analytical findings clearly.',
+        image: iconBa,
+        tags: ['Matplotlib', 'Seaborn', 'Tableau', 'Charts & Graphs', 'Visual Storytelling', 'Insight Communication']
+    },
+    {
+        title: 'Data Tools & Workflow',
+        description: 'I work with common data tools to query, prepare, analyze, and document datasets across an end-to-end analytical workflow.',
+        image: iconDev,
+        tags: ['PostgreSQL', 'MySQL', 'Jupyter Notebook', 'Google Colab', 'Data Preparation', 'Feature Engineering', 'Reproducible Analysis']
     }
 ];
 
