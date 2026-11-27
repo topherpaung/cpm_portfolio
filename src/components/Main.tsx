@@ -27,8 +27,8 @@ function Main() {
             <a href="https://www.instagram.com/chrstphrmrpng/" target="_blank" rel="noreferrer"><InstagramIcon/></a>
           </div>
           <h1>Christopher Parulian Marpaung</h1>
-          <h2>IT Business Analyst | Data Analytics | Data Science</h2>
-          <p>As final-year Computer Science and Mathematics double-degree student at BINUS University, I have built a foundation in algorithms, statistics, and machine learning. I enjoy exploring data, applying analytical methods, and communicating findings through clear visualizations. My interests include data cleaning, exploratory analysis, and predictive modeling.</p>
+          <h2>IT Business Analyst | Data Science</h2>
+          <p>Final-year Computer Science &amp; Mathematics double-degree student with machine learning research in NLP and audio classification, including a first-author paper on pertussis cough classification (MobileNetV3Small, Log-Mel spectrograms). Completed a six-month IT Business Analyst internship at PT Porto Indonesia Sejahtera (Feb-Aug 2026), documenting requirements and executing 600+ SIT/UAT test cases for an Odoo 19 ERP migration.</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/topherpaung" target="_blank" rel="noreferrer"><GitHubIcon/></a>
