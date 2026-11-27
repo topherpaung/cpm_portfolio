@@ -3,6 +3,8 @@ import '../assets/styles/Contact.scss';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 function Contact() {
 
@@ -20,6 +22,12 @@ function Contact() {
             </a>
             <a href="https://www.instagram.com/chrstphrmrpng/" target="_blank" rel="noreferrer" aria-label="Instagram">
               <InstagramIcon />
+            </a>
+            <a href="mailto:christopherpm24@gmail.com" aria-label="Email Christopher">
+              <EmailIcon />
+            </a>
+            <a href="tel:+628119430082" aria-label="Call Christopher">
+              <PhoneIcon />
             </a>
           </div>
         </div>

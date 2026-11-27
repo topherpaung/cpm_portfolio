@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2.5rem;
   padding: 1rem 0 2rem;
   color: #fff;
@@ -33,6 +34,11 @@
 
     &[aria-label="Instagram"]:hover {
       color: #e1306c;
+    }
+
+    &[aria-label="Email Christopher"]:hover,
+    &[aria-label="Call Christopher"]:hover {
+      color: #808080;
     }
   }
 
