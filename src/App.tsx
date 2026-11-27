@@ -58,9 +58,9 @@ function App() {
                     right: 24,
                     bottom: 24,
                     zIndex: 1200,
-                    color: '#fff',
-                    backgroundColor: '#5000ca',
-                    '&:hover': { backgroundColor: '#3d0099' },
+                    color: '#0d1116',
+                    backgroundColor: '#fff',
+                    '&:hover': { backgroundColor: '#e6e6e6' },
                 }}
             >
                 <KeyboardArrowUpIcon />
