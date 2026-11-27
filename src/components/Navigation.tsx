@@ -19,7 +19,7 @@ import Toolbar from '@mui/material/Toolbar';
 const drawerWidth = 240;
 const navItems = [['Background', 'background'], ['Projects', 'projects'], ['Contact', 'contact']];
 const cvDownloadUrl = `${process.env.PUBLIC_URL}/Christopher-Parulian-Marpaung-CV.pdf`;
-const navButtonSx = { color: '#fff', fontFamily: 'Roboto, Helvetica, Arial, sans-serif' };
+const navButtonSx = { color: '#fff' };
 
 function Navigation({parentToChild, modeChange}: any) {
 
