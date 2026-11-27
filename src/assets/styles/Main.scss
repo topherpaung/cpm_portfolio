@@ -53,6 +53,10 @@
             color: #e1306c;
         }
 
+        a[href^="mailto:"] {
+            color: #ffd700;
+        }
+
         a[href*="wa.me"]:hover {
             color: #25d366;
         }
@@ -75,6 +79,10 @@
 
         a[href*="instagram"]:hover {
             color: #e1306c;
+        }
+
+        a[href^="mailto:"] {
+            color: #ffd700;
         }
 
         a[href*="wa.me"]:hover {
