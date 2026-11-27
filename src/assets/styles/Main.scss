@@ -53,6 +53,10 @@
             color: #e1306c;
         }
 
+        a[href*="wa.me"]:hover {
+            color: #25d366;
+        }
+
         svg {
             font-size: 1.8em;
         }
@@ -71,6 +75,10 @@
 
         a[href*="instagram"]:hover {
             color: #e1306c;
+        }
+
+        a[href*="wa.me"]:hover {
+            color: #25d366;
         }
     }
 

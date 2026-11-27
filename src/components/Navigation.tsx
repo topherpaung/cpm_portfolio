@@ -18,6 +18,7 @@ import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
 const navItems = [['Background', 'background'], ['Projects', 'projects'], ['Contact', 'contact']];
+const cvDownloadUrl = `${process.env.PUBLIC_URL}/Christopher-Parulian-Marpaung-CV.pdf`;
 
 function Navigation({parentToChild, modeChange}: any) {
 
@@ -69,6 +70,11 @@ function Navigation({parentToChild, modeChange}: any) {
             </ListItemButton>
           </ListItem>
         ))}
+        <ListItem disablePadding>
+          <ListItemButton component="a" href={cvDownloadUrl} download="Christopher-Parulian-Marpaung-CV.pdf" sx={{ textAlign: 'center' }}>
+            <ListItemText primary="Download CV" />
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );
@@ -98,6 +104,9 @@ function Navigation({parentToChild, modeChange}: any) {
                 {item[0]}
               </Button>
             ))}
+            <Button component="a" href={cvDownloadUrl} download="Christopher-Parulian-Marpaung-CV.pdf" sx={{ color: '#fff' }}>
+              Download CV
+            </Button>
           </Box>
         </Toolbar>
       </AppBar>

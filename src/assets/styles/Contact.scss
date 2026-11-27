@@ -36,9 +36,12 @@
       color: #e1306c;
     }
 
-    &[aria-label="Email Christopher"]:hover,
-    &[aria-label="Call Christopher"]:hover {
+    &[aria-label="Email Christopher"]:hover {
       color: #808080;
+    }
+
+    &[aria-label="WhatsApp Christopher"]:hover {
+      color: #25d366;
     }
   }
 

@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import lightVideo from '../assets/videos/light_vid.mp4';
 import darkVideo from '../assets/videos/dark_vid.mp4';
 import '../assets/styles/Main.scss';
@@ -28,7 +28,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/christopher-marpaung-1451682b3/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon/></a>
             <a href="https://www.instagram.com/chrstphrmrpng/" target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon/></a>
             <a href="mailto:christopherpm24@gmail.com" aria-label="Email Christopher"><EmailIcon/></a>
-            <a href="tel:+628119430082" aria-label="Call Christopher"><PhoneIcon/></a>
+            <a href="https://wa.me/628119430082" target="_blank" rel="noreferrer" aria-label="WhatsApp Christopher"><WhatsAppIcon/></a>
           </div>
           <h1>Christopher Parulian Marpaung</h1>
           <h2>IT Business Analyst | Data Science</h2>
@@ -39,7 +39,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/christopher-marpaung-1451682b3/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon/></a>
             <a href="https://www.instagram.com/chrstphrmrpng/" target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon/></a>
             <a href="mailto:christopherpm24@gmail.com" aria-label="Email Christopher"><EmailIcon/></a>
-            <a href="tel:+628119430082" aria-label="Call Christopher"><PhoneIcon/></a>
+            <a href="https://wa.me/628119430082" target="_blank" rel="noreferrer" aria-label="WhatsApp Christopher"><WhatsAppIcon/></a>
           </div>
         </div>
       </div>

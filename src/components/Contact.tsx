@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Contact() {
 
@@ -26,8 +26,8 @@ function Contact() {
             <a href="mailto:christopherpm24@gmail.com" aria-label="Email Christopher">
               <EmailIcon />
             </a>
-            <a href="tel:+628119430082" aria-label="Call Christopher">
-              <PhoneIcon />
+            <a href="https://wa.me/628119430082" target="_blank" rel="noreferrer" aria-label="WhatsApp Christopher">
+              <WhatsAppIcon />
             </a>
           </div>
         </div>
