@@ -72,7 +72,12 @@ function Navigation({parentToChild, modeChange}: any) {
           </ListItem>
         ))}
         <ListItem disablePadding>
-          <ListItemButton component="a" href={cvDownloadUrl} download="Christopher-Parulian-Marpaung-CV.pdf" sx={{ textAlign: 'center' }}>
+          <ListItemButton
+            component="a"
+            href={cvDownloadUrl}
+            download="Christopher-Parulian-Marpaung-CV.pdf"
+            sx={{ textAlign: 'center', '&:hover': { backgroundColor: 'transparent' } }}
+          >
             <ListItemText primary="Download CV" />
           </ListItemButton>
         </ListItem>
@@ -105,7 +110,13 @@ function Navigation({parentToChild, modeChange}: any) {
                 {item[0]}
               </Button>
             ))}
-            <Button component="a" href={cvDownloadUrl} download="Christopher-Parulian-Marpaung-CV.pdf" sx={navButtonSx}>
+            <Button
+              component="a"
+              href={cvDownloadUrl}
+              download="Christopher-Parulian-Marpaung-CV.pdf"
+              disableRipple
+              sx={{ ...navButtonSx, '&:hover': { color: '#fff', backgroundColor: 'transparent' } }}
+            >
               Download CV
             </Button>
           </Box>
